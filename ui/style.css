@@ -1,22 +1,133 @@
 body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
+	line-height: 1.8;
+}
+.jumbotron {
+	background-color: #f4511e;
+    color: #fff;
+    padding:174px 25px ;
+}
+.container-fluid {
+	padding:30px 20px;
+}
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.about-me{
+	padding-bottom:60px;
+}
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+.services{
+	padding-bottom:30px;
+}
+#section3 {
+	padding-bottom:120px;
+	background-color:#f7e4de;
+}
+.skills{
+margin-left:190px;
+}
+.box{
+	margin-top:50px;
+	border:1px solid black;
+	width:150px;
+	height:150px;
+	border-radius:20px;
+	text-align:center;
+	padding-top:55px;
+	color:white;
+}
+#section4 {
+	padding-bottom:125px;
+}
+#section4 img {
+	height:250px;
+	width:100%;
+	margin-top:60px;
+	border:2px solid  #f4511e;
+	margin-left:20px;
+}
+.one {
+	position: relative;
+	width: 90%;
+}
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #f4511e;
+	overflow: hidden;
+	height:0;
+	width:100%;
+	margin-left:20px;
+	transition: .5s ease;
+}
+.one:hover .overlay {
+	bottom: 0;
+	height: 100%;
+	box-shadow:2px 2px 2px 2px grey;
+}
+.text {
+	//white-space: wrap; 
+	text-align:justify;
+	color: white;
+	font-size: 15px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+#section5 {
+	padding-bottom:120px;
 }
 
-.center {
-    text-align: center;
-}
 
-.text-big {
-    font-size: 300%;
+#section6 {
+	padding-bottom:100px;
+	background-color:#f7e4de;
 }
-
-.bold {
-    font-weight: bold;
+#section6 a {
+	border:1px solid grey;
+	background-color:#f4511e;
+	padding:15px;
+	text-decoration:none;
+	color:black;
+	margin-left:10px;
 }
-
-.img-medium {
-    height: 200px;
+#section6 a:hover {
+	background-color:white;
+	border:1px solid grey;
+	color:#f4511e;
+}
+#section6 li{
+	display:inline;
+}
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
+ @media screen and (max-width: 968px) {
+    .box{
+		width:90px;
+		height:90px;
+		font-size:10px;
+		margin-left:2px;
+	}
+	#section6 a {
+		padding:10px;
+		font-size:15px;
+		margin-right:30px;
+		display:block;
+	}
 }
 
