@@ -19,6 +19,21 @@ app.get('/ui/main.js', function (req, res) {
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
+app.get('/ui/images/2.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '2.png'));
+});
+app.get('/ui/images/Google.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Google.jpg'));
+});
+app.get('/ui/images/slider.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'slider.jpg'));
+});
+app.get('/ui/images/tributepage.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'tributepage.jpg'));
+});
+app.get('/ui/images/game.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'game.png'));
+});
 app.post('/create-user', function (req, res) {
     var username=req.body.username;
      var password=req.body.password;
