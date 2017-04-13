@@ -1,8 +1,8 @@
 body {
 	line-height: 1.8;
 }
-#section1 {
-	background-color: rgb(242, 79, 29);
+.jumbotron {
+	background-color: #f4511e;
     color: #fff;
     padding:174px 25px ;
 }
