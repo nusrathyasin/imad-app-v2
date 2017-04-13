@@ -1,3 +1,23 @@
 body {
 	line-height: 1.8;
 }
+.jumbotron {
+	background-color: #f4511e;
+    color: #fff;
+    padding:174px 25px ;
+}
+.container-fluid {
+	padding:30px 20px;
+}
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.about-me{
+	padding-bottom:60px;
+}
+
+  
