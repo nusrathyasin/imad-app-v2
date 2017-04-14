@@ -43,13 +43,11 @@ margin-left:190px;
 	padding-top:55px;
 	color:white;
 }
-#section4 {
-	padding-bottom:125px;
-}
+
 #section4 img {
 	height:250px;
 	width:100%;
-	margin-top:60px;
+
 	border:2px solid  #f4511e;
 	margin-left:20px;
 }
@@ -70,12 +68,12 @@ margin-left:190px;
 	transition: .5s ease;
 }
 .one:hover .overlay {
-	bottom: 0;
-	height: 100%;
+	top: 0;
+	height: 90%;
 	box-shadow:2px 2px 2px 2px grey;
 }
 .text {
-	//white-space: wrap; 
+	
 	text-align:justify;
 	color: white;
 	font-size: 15px;
